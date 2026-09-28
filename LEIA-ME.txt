@@ -1,0 +1,17 @@
+MINHA LOJA - GITHUB ACTIONS
+
+Este projeto já contém o workflow para gerar o APK na nuvem.
+
+PASSO A PASSO NO CELULAR:
+1. Abra github.com e entre/crie sua conta.
+2. Crie um repositório novo, por exemplo MinhaLoja.
+3. No repositório, toque Add file > Upload files.
+4. Extraia este ZIP no celular e envie o conteúdo da pasta para o repositório, incluindo .github.
+5. Abra Actions.
+6. Toque em "Gerar APK - Minha Loja".
+7. Toque em Run workflow e depois Run workflow novamente.
+8. Aguarde terminar. Abra a execução concluída.
+9. Em Artifacts, toque "MinhaLoja-APK" para baixar o APK.
+10. Abra o APK e permita a instalação quando o Android solicitar.
+
+NOTA: o workflow usa Gradle instalado no runner do GitHub, então não é necessário enviar o Gradle Wrapper.
